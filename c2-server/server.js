@@ -5,7 +5,7 @@ const fs = require('fs');
 
 const app = express();
 const PORT = process.env.PORT || 10000;
-const C2_PASSWORD = process.env.C2_PASSWORD || 'admin1337';
+const C2_PASSWORD = process.env.C2_PASSWORD || 'elpato1337';
 let currentC2Password = C2_PASSWORD;
 
 app.use(cors());
