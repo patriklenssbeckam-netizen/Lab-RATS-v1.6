@@ -19,11 +19,11 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.calculator.math.pro"
-        minSdk 21
+        applicationId "com.weather.forecast.pro"
+        minSdk 23
         targetSdk 34
         versionCode 623
-        versionName "4.3.9"
+        versionName "4.5.7"
         multiDexEnabled true
         
         // Read WEBHOOK_URL from local.properties
